@@ -57,7 +57,7 @@ downloadLink.addEventListener('click', function(event) {
     event.preventDefault();
     
     // URL del file da scaricare
-    var fileUrl = 'https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FSaraBell99%2FCome-scrivevamo%2Fmain%2Fdownload%2FMetadati_schema_Zanichelli.xlsx&wdOrigin=BROWSELINK'; // Sostituisci con l'URL effettivo del file
+    var fileUrl = 'https://github.com/SaraBell99/Come-scrivevamo/raw/main/download/Metadati_schema_Zanichelli.xlsx'; // Sostituisci con l'URL effettivo del file
 
     // Crea un oggetto XMLHttpRequest
     var xhr = new XMLHttpRequest();
