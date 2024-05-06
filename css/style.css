@@ -1,4 +1,3 @@
-
 .logo {
 	width: 80%;
 }
@@ -19,9 +18,19 @@
 	padding: 2%;
 }
 
-/*.text-center {
-	margin: 0px;
-}*/
+.row-accordion {
+	padding: 10%;
+}
+
+.accordion-button:not(.collapsed) {
+	color: #c34528;
+	background-color: #d9d9d9;
+}
+
+.accordion-button:focus {
+	box-shadow: 0 0 0 .25rem rgba(255, 77, 77, .25);
+}
+
 
 .container {
 	width: auto; 
@@ -41,6 +50,10 @@
 .col-3 {
 	padding:2%; 
 	margin-top: 2%;
+}
+
+.col-4{
+	padding: 2%;
 }
 
 .col-9 {
@@ -67,13 +80,18 @@
 	margin top:0;
 }
 
-.tab-container {
+.tab-container, .container-accordion {
 	padding:5%;
 	background-image: url("../img/home/Pagina-intera2.png");
 	height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.container-tables {
+	background-color: white;
+	margin-top:2%;
 }
 
 .tab-box {
@@ -85,7 +103,7 @@
 
 .btn-link {
 	float:right;
-	margin-top: 1%;
+	margin-top: 10px;
 	margin-right: 3%;
 	font-size: 50px;
 	color: black;
@@ -93,6 +111,14 @@
 
 .btn-link:hover {
 	color: #a6a6a6;
+}
+
+.h3, .table-title {
+	font-family: var(--bs-font-sans-serif);
+	padding: 2%;
+	text-decoration: underline;
+	background: white;
+	margin-top:3%;
 }
 
 .article-title {
@@ -146,6 +172,7 @@
   padding: 6px 12px;
   border-top: none;
 }
+
 
 /*----------------down---------------*/
 .pre-footer {
