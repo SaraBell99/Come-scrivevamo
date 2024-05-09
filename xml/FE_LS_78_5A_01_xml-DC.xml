@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogo
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<essay xml:id="FE_LS_78_5A_01">
+<!--descrizione della risorsa digitale-->
+		<dc:title>FE_LS_78_5A_01</dc:title>
+		<dc:creator>Anonimo</dc:creator>
+		<dc:subject>Tema di maturità</dc:subject><!--Thesauro non trovato-->
+		<dc:subject>1978</dc:subject>
+		<dc:description>Trascrizione della produzione scritta di uno studente per la prima prova dell'esame di maturità</dc:description>
+		<dc:description>
+		Il testo discute del ruolo della tecnologia nel progresso economico e sociale, evidenziando come essa sia essenziale per ottimizzare l'uso delle risorse e soddisfare le necessità umane, ma anche come la mancanza di sviluppo tecnologico abbia contribuito alla crisi economica e sociale in Italia, in particolare nei settori agricolo, zootecnico, ecologico e della ricerca scientifica.</dc:description>
+		<dc:publisher>Università di Bologna</dc:publisher>
+		<dc:contributor>AdLab</dc:contributor>
+		<dc:contributor>Bellelli, Sara</dc:contributor>
+		<dc:date>2024</dc:date>
+		<dc:type>Testo in prosa</dc:type>
+		<dc:format>XML</dc:format>
+		<dc:identifier>file:///C:/Users/sarab/OneDrive/Desktop/Digital%20Humanities/Come-scrivevamo-HTML/FE_LS_78_5A_01.html</dc:identifier>
+		<dc:source>Tema originale cartaceo</dc:source>
+		<dc:language>Ita</dc:language>
+		<dc:coverage>Bologna: Università di Bologna, 2024</dc:coverage>
+		<dc:rights-management>Free Access</dc:rights-management>
+	</essay>
+</catalogo>

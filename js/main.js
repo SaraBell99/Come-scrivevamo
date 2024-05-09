@@ -1,93 +1,95 @@
-function openCity(evt, cityName) {
-  // Declare all variables
+function openPage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
   var i, tabcontent, tablinks;
-
-  // Get all elements with class="tabcontent" and hide them
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
 
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
   for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
+    tablinks[i].style.backgroundColor = "";
   }
 
-  // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
 }
 
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
 
 
-// Callback that creates and populates a data table,
-// instantiates the pie chart, passes in the data and
-// draws it.
 function drawChart() {
-
-  // Create the data table.
-   var data = new google.visualization.DataTable();
-   data.addColumn('string', 'Topping');
-   data.addColumn('number', 'Slices');
-   data.addRows([
-   ['Maschi', 45],
-   ['Femmine', 67],
+  // Create the data table for the first chart.
+  var data1 = new google.visualization.DataTable();
+  data1.addColumn('string', 'Topping');
+  data1.addColumn('number', 'Slices');
+  data1.addRows([
+    ['Maschi', 950],
+    ['Femmine', 594],
   ]);
 
- // Set chart options
- var options = {'title':'Il genere',
-                'width':400,
-                'height':300,
-                'titleTextStyle': {fontSize: 20},
-                'legend': {textStyle: {fontSize: 13}}
-               };
+  // Set options for the first chart.
+  var options1 = {
+    'title': 'Il genere degli scriventi',
+    'width': 400,
+    'height': 300,
+    'titleTextStyle': { fontSize: 20 },
+    'legend': { textStyle: { fontSize: 13 } }
+  };
 
-  // Instantiate and draw our chart, passing in some options.
-  var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
-  chart.draw(data, options);
-      }
+  // Instantiate and draw the first chart.
+  var chart1 = new google.visualization.PieChart(document.getElementById('chart_div_gender'));
+  chart1.draw(data1, options1);
+
+  // Create the data table for the second chart.
+  var data2 = new google.visualization.DataTable();
+  data2.addColumn('string', 'Topping');
+  data2.addColumn('number', 'Slices');
+  data2.addRows([
+    ['Liceo Scientifico', 1222],
+    ['Liceo Classico', 943],
+    ['Istituto Tecnico', 1429],
+  ]);
+
+  // Set options for the second chart.
+  var options2 = {
+    'title': 'Indirizzo di studi',
+    'width': 400,
+    'height': 300,
+    'titleTextStyle': { fontSize: 20 },
+    'legend': { textStyle: { fontSize: 13 } }
+  };
+
+  // Instantiate and draw the second chart.
+  var chart2 = new google.visualization.PieChart(document.getElementById('chart_div_typeschool'));
+  chart2.draw(data2, options2);
 
 
-var downloadLink = document.getElementById('downloadLink');
+var data3 = new google.visualization.DataTable();
+  data3.addColumn('string', 'Topping');
+  data3.addColumn('number', 'Slices');
+  data3.addRows([
+    ['Nord', 1285],
+    ['Centro', 1404],
+    ['Sud', 309],
+    ['Isole', 301],
+  ]);
 
-// Ascolta l'evento 'click' sull'elemento di ancoraggio
-downloadLink.addEventListener('click', function(event) {
-    // Impedisce il comportamento predefinito del link (aprire l'URL specificato)
-    event.preventDefault();
-    
-    // URL del file da scaricare
-    var fileUrl = 'https://github.com/SaraBell99/Come-scrivevamo/raw/main/download/Metadati_schema_Zanichelli.xlsx'; // Sostituisci con l'URL effettivo del file
+  // Set options for the third chart.
+  var options3 = {
+    'title': 'Sede scolastica*',
+    'width': 400,
+    'height': 300,
+    'titleTextStyle': { fontSize: 20 },
+    'legend': { textStyle: { fontSize: 13 } }
+  };
 
-    // Crea un oggetto XMLHttpRequest
-    var xhr = new XMLHttpRequest();
-    
-    // Imposta il metodo e l'URL della richiesta
-    xhr.open('GET', fileUrl, true);
-    
-    // Imposta il tipo di risposta come 'blob' (Binary Large Object)
-    xhr.responseType = 'blob';
-    
-    // Quando la richiesta è completata
-    xhr.onload = function() {
-        // Controlla se la richiesta ha avuto successo (status 200) 
-        if (this.status === 200) {
-            // Crea un oggetto URL dal blob restituito dalla richiesta
-            var blob = new Blob([this.response], { type: 'application/octet-stream' });
-            var url = window.URL.createObjectURL(blob);
-            
-            // Imposta l'attributo 'href' dell'elemento di ancoraggio per puntare all'URL del blob
-            downloadLink.href = url;
-            
-            // Forza il download del file facendo clic sul link
-            downloadLink.click();
-            
-            // Libera la risorsa URL creata
-            window.URL.revokeObjectURL(url);
-        }
-    };
-    
-    // Invia la richiesta
-    xhr.send();
-});
-
+  // Instantiate and draw the third chart.
+  var chart3 = new google.visualization.PieChart(document.getElementById('chart_div_geographic'));
+  chart3.draw(data3, options3);
+}

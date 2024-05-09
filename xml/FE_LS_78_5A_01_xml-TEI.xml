@@ -1,0 +1,138 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="it">
+    <fileDesc>
+      <titleStmt>
+        <title>FE_LS_78_5A_01</title>
+        <author>Anonimo</author>
+        <editor>Bellelli, Sara</editor>
+        <sponsor>AdLab, Università di Bologna</sponsor>
+        <funder>Università di Bologna</funder>
+        <principal>Lanzoni, Chiara</principal>
+        <resp>Viale, Matteo</resp>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <p>Università di Bologna</p>
+          <p>Date: 2024</p>
+          <p>Location: Bologna</p>
+        </publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Produzione scritta di uno studente per la prima prova dell'esame di maturità nel 1978</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>https://github.com/SaraBell99/Come-scrivevamo/raw/main/download/VADEMECUM%20PER%20LA%20TRASCRIZIONE%20DELLE%20PROVE.pdf</p>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="it">
+    <front>
+      <titlePage>
+        <pb n="1"/>
+        <epigraph>Consegnato ore 14.47</epigraph>
+        <docEdition type="stamp">Timbro: Liceo Scientifico Statale - VARESE -</docEdition>
+        <docTitle>
+          <titlePart type="principal">
+            <byline>
+              <p>Esame di Maturità Scientifica anno scol. 1977/78</p>
+              <p>Prova scritta di Italiano</p>
+            </byline>
+            <docDate>Varese 3/7/1978</docDate>
+          </titlePart>
+          <titlePart type="descriptive">
+            <list>
+              <item>
+                <p>1)Primo</p>
+                <p>Le elezioni per il parlamento europeo sono ormai decise. Il candidato metta in<lb/>
+                rilievo le motivazioni politiche, economiche e culturali che rendono auspicabile,<lb/>
+                anche se difficile, il processo di unificazione dell'<name type="luogo">Europa</name>.</p>
+              </item>
+              <item>
+                <p>2)Secondo</p>
+                <p><name type="persona">Ungaretti</name>, <name type="persona">Quasimodo</name>, <name type="persona">Montale</name>. Il candidato parli di uno di questi tre<lb/>
+                poeti, indicando, fra l'altro, problemi e motivi ad essi comuni.</p>
+              </item>
+              <item>
+                <p>3)Terzo</p>
+                <p>Nascita e sviluppo del movimento operaio in <name type="luogo">Italia</name> e sua incidenza sui<lb/>
+                movimenti politici e sociali più significativi del nostro tempo.</p>
+              </item>
+              <item>
+                <p>4)Quarto</p>
+                <p>A parere del candidato, quali potrebbero essere i campi di applicazione<lb/>
+                tecnologica idonei a dare impulso a settori produttivi che, sfruttando<lb/>
+                le risorse del nostro paese, possono apportare concreti benefici di<lb/>
+                ordine economico e sociale.</p>
+              </item>
+            </list>
+          </titlePart>
+        </docTitle>
+      </titlePage>
+    </front>
+    <body>
+      <div>
+        <head>Svolgimento n.4°</head>
+        <p>Nel progresso economico e sociale di un popolo la tecnologia ha sempre <lb/>
+        avuto ruoli di primaria importanza. L'applicazione dei risultati <lb/>
+        scientifici e degli studi tecnici è infatti volta a soddisfare le regole più <lb/>
+        elementari dell'economia: ottenere il massimo con il minimo dei mezzi, <lb/>
+        risparmiando tempo e fatica. Socialmente la tecnologia tende a sod<lb/>
+        disfare nell'uomo tanto le necessità fisiche quanto le necessità morali.<lb/>
+        Banali esempi possono essere la televisione, la radio, la diffusione a lunga <lb/>
+        tirata dei giornali, le sale operatorie degli ospedali e l'ufficio meccanogra<lb/>
+        fico di un comune. Un paese sottosviluppato deve, quasi sempre, la sua con<lb/>
+        dizione di inferiorità a un ritardato o addirittura assente sviluppo
+        <pb n="2"/>tecnologico.<lb/>
+        L'<name type="luogo">Italia</name> decisamente non è un paese sottosviluppato, tuttavia si trova in<lb/>
+        una grave crisi economica e sociale dalla fine degli anni sessanta, quando<lb/>
+        tutta l'<name type="luogo">Europa</name> fu stordita dal ricaro del petrolio. Mentre, però, in<lb/>
+        <name type="luogo">Europa</name> la situazione va risolvendosi, in <name type="luogo">Italia</name> lo stordimento dura ormai<lb/>
+        da una decina d'anni; per noi si è trattato difatti di una crisi<lb/>
+        congiunturale, il costo elevato del petrolio ci è servito solo a capire<lb/>
+        quanto fossero tremanti le strutture del nostro paese.<lb/>
+        La tecnologia, pur non essendo la maggiore colpevole di questa<lb/>
+        crisi, assume, in alcuni settori in cui se ne è trascurato lo sviluppo,<lb/>
+        un ruolo determinante. Nel settore metallurgico-siderurgico,<lb/>
+        in quello automobilistico e ciclomotoristico, nel settore meccanico in<lb/>
+        generale il problema sta nella possibilità di investire denaro nei cana<lb/>
+        li produttivi che talvolta si presentano. Le macchine di questi<lb/>
+        settori sono giovani, nel senso che svolgono il loro lavoro e che hanno<lb/>
+        la possibilità di tenere i ritmi di produzione ancora per lungo<lb/>
+        tempo. I settori in cui invece si denuncia la quasi totale assenza<lb/>
+        di mezzi sono quello agricolo, zootecnico, ecologico e Ittico e della ricerca.<lb/>
+        È necessario incrementare la produzione e l'efficenza di questi settori<lb/>
+        sia perché sono nevralgici per la vita di qualsiasi paese, soprattutto nel<lb/>
+        nostro che non possiede quasi materie prime proprie, sia perché si<lb/>
+        avrebbe la possibilità di arginare il fenomeno della disoccupazione.<lb/>
+        Mangiamo ogni anno più di quanto le industrie alimentari e i con<lb/>
+        tadini ci possano offrire eppure la gran massa di persone pur conside<lb/>
+        rando il problema, lo sfiora rivolgendo il proprio interesse verso settori<lb/>
+        ormai saturi, ma in cui la possibilità di emergere è maggiore. Non<lb/>
+        basta costituire i contadini in cooperative se non hanno la capacità<lb/>
+        di sfruttare al massimo la terra. Con le macchine potrebbe anche<lb/>
+        essere possibile modificare la mentalità di tanti agricoltori che,<lb/>
+        soprattutto nel sud, lavorano ancora con metodi feudali e riavvicinare
+        <pb n="3"/>i giovani alla campagna. Carenti sono anche le strutture e le macchine<lb/>
+        per l'allevamento degli animali domestici, privati anche di buoni pascoli<lb/>
+        dalla crisi agricola. I canoni in cui viene impostato l'alleva<lb/>
+        mento sono antiquati su gran parte del territorio nazionale.<lb/>
+        In questi ultimi anni, a fasi alterne è entrata i crisi anche il turismo:<lb/>
+        a questo, oltre la presenza dei "brigatisti" e dei "banditi" di cui l'<name type="luogo">Italia</name><lb/>
+        sembra essere affollata, contribuiscono l'inquinamento delle acque<lb/>
+        per mancanza di validi impianti di depurazione o adeguati sbocchi<lb/>
+        in zone non nocive e i frequenti incendi, dolosi e no, che devastano<lb/>
+        interi boschi senza che nessuno possa intervenire. L'inquinamento<lb/>
+        delle acque richiama anche la distruzione della fauna marina con<lb/>
+        susseguente crisi dell'industria ittica. Importiamo molto pesce e<lb/>
+        dei nostri disoccupati molti sono pescatori che, senza il prodotto del<lb/>
+        proprio lavoro non sono in grado di cambiare o migliorare gli strumenti<lb/>
+        della pesca. Sulla ricerca scientifica il dato più preoccupante<lb/>
+        è l'ormai nota fuga dei cervelli italiani all'estero, soprattutto verso<lb/>
+        gli <foreign lang="eng"><name type="luogo">States</name></foreign>. La mancanza dei mezzi in questo settore, che ha messo in<lb/>
+        crisi l'industria chimica e alimentare, è molto più accentuata nelle<lb/>
+        scuole medie superiori e nelle università dove è molto difficile accostarsi<lb/>
+        alla parte pratica delle materie scientifiche.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
