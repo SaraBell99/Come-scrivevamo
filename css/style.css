@@ -165,12 +165,12 @@
 
 .viaf {
 	text-decoration:none;
-	color: gray;
+	color:#212529;
 }
 
 .viaf:hover {
 	text-decoration:underline;
-	color:lightgray;
+	color:gray;
 }
 
 h6 {
@@ -183,7 +183,6 @@ h6 {
 .h3, .table-title {
 	font-family: var(--bs-font-sans-serif);
 	padding: 2%;
-	text-decoration: underline;
 	background: white;
 	margin-top:3%;
 	background-color: rgba(64, 64, 64, 0.4);
