@@ -11,4 +11,5 @@ Corso di Digital Humanities e Patrimonio Culturale - prof.ssa Francesca Tomasi
 Dipartimento di Filologia Classica e Italianistica
 Alma Mater Studiorum - Università di Bologna
 a.a. 20223/2024
+
 sara.bellelli3@studio.unibo.it
