@@ -1,6 +1,6 @@
 # Come-scrivevamo?
 Il progetto è la creazione di un sito-web che illustri e contenga un corpus di italiano scritto basato sulle prove di maturità degli studenti italiani dal 1967 al 2012.
-IL progetto nasce dalla collaborazione tra Zanichelli e l'Università di Bologna, conterrà la scannerizzazione dei temi e la loro trascizione. 
+Il progetto nasce dalla collaborazione tra Zanichelli e l'Università di Bologna, conterrà la scannerizzazione dei temi e la loro trascizione. 
 
 I testi sono codificati in XML/TEI e descritti secondo XML/DC.
 
