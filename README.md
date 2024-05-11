@@ -7,7 +7,7 @@ I testi sono codificati in XML/TEI e descritti secondo XML/DC.
 Il link al sito è il seguente:  https://sarabell99.github.io/Come-scrivevamo/ 
 
 Sara Bellelli
-Corso di Digital Humanities e Patrimonio Culturale - prof.ssa Francesca Tomasi
+Corso di Digital Humanities e Patrimonio Culturale - prof.ssa Francesca Tomasi <br>
 Dipartimento di Filologia Classica e Italianistica
 Alma Mater Studiorum - Università di Bologna
 a.a. 20223/2024
