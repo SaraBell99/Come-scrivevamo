@@ -41,20 +41,21 @@
           </titlePart>
           <titlePart type="descriptive">
             <list>
-              <item>
-                <p>1)Primo</p>
+              <item> 
+              <!--ho preferito aggiungere tutti i ref in un file xml/RDF separato specifico per l'item descritto. Ipotizzo anche un file xml/RDF unico per tutto il corpus per i nomi di persona (autori ecc.) e un altro con i nomi di luoghi-->
+                <p>1)Primo</p> 
                 <p>Le elezioni per il parlamento europeo sono ormai decise. Il candidato metta in<lb/>
                 rilievo le motivazioni politiche, economiche e culturali che rendono auspicabile,<lb/>
-                anche se difficile, il processo di unificazione dell'<name type="luogo">Europa</name>.</p>
+                anche se difficile, il processo di unificazione dell'<name type="luogo" ref="xml/FE_LS_78_5A_01_xml-RDF.xml">Europa</name>.</p>
               </item>
               <item>
                 <p>2)Secondo</p>
-                <p><name type="persona">Ungaretti</name>, <name type="persona">Quasimodo</name>, <name type="persona">Montale</name>. Il candidato parli di uno di questi tre<lb/>
+                <p><name type="persona" ref="xml/FE_LS_78_5A_01_xml-RDF.xml">Ungaretti</name>, <name type="persona" ref="xml/FE_LS_78_5A_01_xml-RDF.xml">Quasimodo</name>, <name type="persona" ref="xml/FE_LS_78_5A_01_xml-RDF.xml">Montale</name>. Il candidato parli di uno di questi tre<lb/>
                 poeti, indicando, fra l'altro, problemi e motivi ad essi comuni.</p>
               </item>
               <item>
                 <p>3)Terzo</p>
-                <p>Nascita e sviluppo del movimento operaio in <name type="luogo">Italia</name> e sua incidenza sui<lb/>
+                <p>Nascita e sviluppo del movimento operaio in <name type="luogo" ref="xml/FE_LS_78_5A_01_xml-RDF.xml">Italia</name> e sua incidenza sui<lb/>
                 movimenti politici e sociali più significativi del nostro tempo.</p>
               </item>
               <item>
@@ -83,10 +84,10 @@
         fico di un comune. Un paese sottosviluppato deve, quasi sempre, la sua con<lb/>
         dizione di inferiorità a un ritardato o addirittura assente sviluppo
         <pb n="2"/>tecnologico.<lb/>
-        L'<name type="luogo">Italia</name> decisamente non è un paese sottosviluppato, tuttavia si trova in<lb/>
+        L'<name type="luogo" ref="xml/FE_LS_78_5A_01_xml-RDF.xml">Italia</name> decisamente non è un paese sottosviluppato, tuttavia si trova in<lb/>
         una grave crisi economica e sociale dalla fine degli anni sessanta, quando<lb/>
-        tutta l'<name type="luogo">Europa</name> fu stordita dal ricaro del petrolio. Mentre, però, in<lb/>
-        <name type="luogo">Europa</name> la situazione va risolvendosi, in <name type="luogo">Italia</name> lo stordimento dura ormai<lb/>
+        tutta l'<name type="luogo" ref="xml/FE_LS_78_5A_01_xml-RDF.xml">Europa</name> fu stordita dal ricaro del petrolio. Mentre, però, in<lb/>
+        <name type="luogo">Europa</name> la situazione va risolvendosi, in <name type="luogo" ref="xml/FE_LS_78_5A_01_xml-RDF.xml">Italia</name> lo stordimento dura ormai<lb/>
         da una decina d'anni; per noi si è trattato difatti di una crisi<lb/>
         congiunturale, il costo elevato del petrolio ci è servito solo a capire<lb/>
         quanto fossero tremanti le strutture del nostro paese.<lb/>
@@ -117,7 +118,7 @@
         dalla crisi agricola. I canoni in cui viene impostato l'alleva<lb/>
         mento sono antiquati su gran parte del territorio nazionale.<lb/>
         In questi ultimi anni, a fasi alterne è entrata i crisi anche il turismo:<lb/>
-        a questo, oltre la presenza dei "brigatisti" e dei "banditi" di cui l'<name type="luogo">Italia</name><lb/>
+        a questo, oltre la presenza dei "brigatisti" e dei "banditi" di cui l'<name type="luogo" ref="xml/FE_LS_78_5A_01_xml-RDF.xml">Italia</name><lb/>
         sembra essere affollata, contribuiscono l'inquinamento delle acque<lb/>
         per mancanza di validi impianti di depurazione o adeguati sbocchi<lb/>
         in zone non nocive e i frequenti incendi, dolosi e no, che devastano<lb/>
@@ -128,7 +129,7 @@
         proprio lavoro non sono in grado di cambiare o migliorare gli strumenti<lb/>
         della pesca. Sulla ricerca scientifica il dato più preoccupante<lb/>
         è l'ormai nota fuga dei cervelli italiani all'estero, soprattutto verso<lb/>
-        gli <foreign lang="eng"><name type="luogo">
+        gli <foreign lang="eng"><name type="luogo" ref="xml/FE_LS_78_5A_01_xml-RDF.xml">
         <choice>
           <abbr>States</abbr>
           <expan>United States</expan>
