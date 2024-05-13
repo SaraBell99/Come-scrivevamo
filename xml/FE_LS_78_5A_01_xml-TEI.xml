@@ -128,7 +128,11 @@
         proprio lavoro non sono in grado di cambiare o migliorare gli strumenti<lb/>
         della pesca. Sulla ricerca scientifica il dato più preoccupante<lb/>
         è l'ormai nota fuga dei cervelli italiani all'estero, soprattutto verso<lb/>
-        gli <foreign lang="eng"><name type="luogo">States</name></foreign>. La mancanza dei mezzi in questo settore, che ha messo in<lb/>
+        gli <foreign lang="eng"><name type="luogo">
+        <choice>
+          <abbr>States</abbr>
+          <expan>United States</expan>
+        </choice></name></foreign>. La mancanza dei mezzi in questo settore, che ha messo in<lb/>
         crisi l'industria chimica e alimentare, è molto più accentuata nelle<lb/>
         scuole medie superiori e nelle università dove è molto difficile accostarsi<lb/>
         alla parte pratica delle materie scientifiche.</p>

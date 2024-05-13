@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:gn="https://www.geonames.org/ontology#">
+
+  <rdf:Description rdf:about="https://viaf.org/viaf/89710987/#Ungaretti,_Giuseppe,_1888-1970.">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Ungaretti, Giuseppe</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://viaf.org/viaf/59097336/#Quasimodo,_Salvatore,_1901-1968.">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Quasimodo, Salvatore</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://viaf.org/viaf/73857542/#Montale,_Eugenio,_1896-1981.">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Montale, Eugenio</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.geonames.org/countries/IT/italy.html">
+    <rdf:type rdf:resource="https://www.geonames.org/3175395/italian-republic.html"/>
+    <gn:name>Italia</gn:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.geonames.org/6255148/">
+    <rdf:type rdf:resource="https://www.geonames.org/6255148/europe.html"/>
+    <gn:name>Europa</gn:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://www.geonames.org/countries/US/united-states.html">
+    <rdf:type rdf:resource="https://www.geonames.org/6252001/united-states.html"/>
+    <gn:name>Stati Uniti</gn:name>
+    <gn:alternateName xml:lang="eng">States</gn:alternateName>
+  </rdf:Description>
+
+</rdf:RDF>
